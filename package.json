@@ -1,10 +1,14 @@
 {
-  "name": "office-addin-taskpane",
-  "version": "0.0.1",
+  "name": "excel-bill-com-addin",
+  "version": "1.0.0",
+  "description": "Excel Add-in that integrates with Bill.com API to fetch and display bill data with data transformation capabilities",
+  "author": "nunoxsantos",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OfficeDev/Office-Addin-TaskPane.git"
+    "url": "https://github.com/nunoxsantos/excel-addin.git"
   },
+  "homepage": "https://github.com/nunoxsantos/excel-addin#readme",
+  "keywords": ["excel", "add-in", "bill.com", "api", "office", "office-addin"],
   "license": "MIT",
   "config": {
     "app_to_debug": "excel",

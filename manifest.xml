@@ -2,15 +2,15 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>5662cca8-f04b-4a42-a68e-74b5f25c4254</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Contoso</ProviderName>
+  <ProviderName>nunoxsantos</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Bill Test"/>
-  <Description DefaultValue="A template to get started."/>
+  <DisplayName DefaultValue="Bill.com Excel Add-in"/>
+  <Description DefaultValue="Excel Add-in that integrates with Bill.com API to fetch and display bill data with advanced data transformation capabilities."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://github.com/nunoxsantos/excel-addin/issues"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://gateway.stage.bill.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
@@ -72,13 +72,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Bill.com Excel Add-in!"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="Bill.com Integration"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Bill.com Data"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Your Bill.com Excel Add-in loaded successfully. Go to the HOME tab and click the 'Bill.com Data' button to fetch and transform your bill data."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open Bill.com data integration panel"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

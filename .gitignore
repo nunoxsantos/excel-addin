@@ -4,8 +4,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build outputs
-dist/
+# Build outputs (excluding dist for GitHub Pages hosting)
+# dist/ - commented out to allow GitHub hosting
 build/
 *.tsbuildinfo
 
